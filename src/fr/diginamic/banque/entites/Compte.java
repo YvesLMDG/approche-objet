@@ -14,4 +14,8 @@ public class Compte {
 		return "numeroCompte : " + numeroCompte + ", soldeCompte : "+ soldeCompte;
 	}
 	
+	public void executeOperation(Operation operation) {
+		this.soldeCompte = operation.execute(this.soldeCompte);
+	}
+	
 }
