@@ -13,4 +13,33 @@ public class Personne {
 		this.prenom = prenom;
 		this.adressePostale = adressePostale;
 	}
+	
+	public void afficheNomMajusculePrenom() {
+		System.out.println(nom.toUpperCase()+ " " + prenom);
+	}
+	
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	
+	public void setAdressePostale(AdressePostale adressePostale) {
+		this.adressePostale = adressePostale;
+	}
+	
+	public String getNom() {
+		return this.nom;
+	}
+	
+	public String getPrenom() {
+		return this.prenom;
+	}
+	
+	public AdressePostale getAdressePostale() {
+		return this.adressePostale;
+	}
+	
 }
