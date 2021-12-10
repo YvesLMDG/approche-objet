@@ -11,7 +11,7 @@ public class Compte {
 	}
 	
 	public String toString() {
-		return "numeroCompte : " + numeroCompte + "\nsoldeCompte : "+ soldeCompte;
+		return "numeroCompte : " + numeroCompte + ", soldeCompte : "+ soldeCompte;
 	}
 	
 }
