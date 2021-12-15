@@ -28,6 +28,7 @@ public class Ville implements Comparable<Ville>{
 	public String toString() {
 		return nom + " : " + nbHabitants + " hab.";
 	}
+	
 	public static void main(String[] args) {
 		List<Ville> lVilles = new ArrayList<>();
 		lVilles.add(new Ville("Nice", 343_000));
